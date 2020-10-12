@@ -1,4 +1,4 @@
-# Ruby on Rails, PostgreSQL. Redis, Vue.js with Docker and Docker-compose 
+# Ruby on Rails, PostgreSQL. Redis, Vue.js with Docker and Docker Compose 
 
 Skills
 - Ruby
