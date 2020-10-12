@@ -39,4 +39,5 @@ Run http://localhost:3000
 
 ### Site
 https://gilcierweb.com.br
+
 https://gilcierweb.com.br/posts/dockerizando-uma-aplicacao-ruby-on-rails-com-postgresql-redis-e-vue-js
