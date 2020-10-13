@@ -19,6 +19,8 @@ https://docs.docker.com/compose/install/
 ### Usage
 
 ```shell script
+git clone https://github.com/gilcierweb/rails-docker.git
+
 cd rails-docker
 
 docker-compose build
@@ -29,7 +31,12 @@ sudo chown -R $USER:$USER .
 
 cp database.example.yml config/database.yml
 
-docker-compose run --rm app bundle exec rake db:create db:migrate
+docker-compose run --rm app bundle exec rails db:create db:migrate
+
+# case errors gem not install
+docker-compose run --rm app bundle install
+# case errors with yarn dependencies
+docker-compose run --rm app yarn install --check-files 
 
 docker-compose up
 
